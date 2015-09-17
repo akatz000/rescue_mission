@@ -5,9 +5,8 @@
   <title>Details</title>
 </head>
 <body>
-  <ul>
-    <li><%= @question.title %></li>
-    <li><%= @question.text %></li>
-  </ul>
+  <p><%= @question.title %></p>
+  <p><%= @question.text %></p>
+  <%= render 'answers/form' %>
 </body>
 </html>
